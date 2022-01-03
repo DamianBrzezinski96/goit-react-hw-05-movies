@@ -1,0 +1,102 @@
+.Container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+.MovieInfo {
+    display: flex;
+    padding-bottom: 5px;
+    border-bottom: 1px solid rgb(201, 201, 201);
+}
+
+.MovieInfoImg {
+    width: 250px;
+}
+
+.MovieInfoWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.MovieInfoHeader {
+    margin-top: 0;
+    margin-bottom: -10px;
+}
+
+.MovieReleaseWrapper {
+    display: flex;
+    color: rgb(179, 179, 179);
+    font-style: italic;
+    font-size: 13px;
+}
+
+.MovieDate {
+    margin-right: 10px;
+    margin-top: 0;
+}
+
+.GenresList {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+.GenresItem {
+    margin-right: 5px;
+    margin-top: 0;
+}
+
+.Overview {
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.OverviewDescr {
+    margin-top: -20px;
+    font-style: italic;
+}
+
+.backBtn {
+    position: sticky;
+    top: 50px;
+   margin-right: 5px;
+   border: 1px solid lightgrey;
+   border-radius: 12px;
+   padding: 2px 15px;
+   cursor: pointer;
+   background-color: #fff;
+}
+
+.InfoList {
+    display: flex;
+    list-style: none;
+    margin-top: 50px;
+    padding-left: 0;
+}
+
+.InfoItems {
+    margin-right: 5px;
+    border: 1px solid lightgrey;
+    border-radius: 12px;
+    padding: 2px 15px;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.InfoItems:hover {
+    box-shadow: 1px 1px 5px lightgrey;
+}
+
+.InfoItem {
+    text-decoration: none;
+    color: #000;
+    /* text-decoration: ; */
+}

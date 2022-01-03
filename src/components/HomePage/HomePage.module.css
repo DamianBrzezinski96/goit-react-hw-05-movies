@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(211, 243, 224);
+}
+
+section {
+    max-width: 1200px;
+    
+}
+
+.HomePageList {
+    list-style:none;
+}
+
+.header {
+    margin-left: 50px;
+    
+}
