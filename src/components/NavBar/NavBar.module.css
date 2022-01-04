@@ -1,0 +1,33 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+    box-shadow: 0 2px 4px rgb(240, 71, 71);
+    z-index: 150;
+    background-color: rgb(26, 24, 24);
+}
+
+.navbarList {
+    display: flex;
+    list-style: none;
+    color: red;
+}
+
+.navbarLink {
+    text-decoration: none;
+}
+
+.navbarItem {
+    margin-left: 30px;
+    font-weight: 900;
+    cursor: pointer;
+    
+}
+.navbarItem:nth-child(1),
+.navbarLink:nth-child(1):visited {
+    color: rgb(243, 62, 62);
+    font-weight: bold;
+    margin-right: 20px;
+}
+
